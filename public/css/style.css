@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Rubik&family=Courgette&display=swap');
+
+body {
+	font-family: 'Rubik', sans-serif; }
+	
+.wrap-header {
+	background-color: #f6d589 !important;
+     border:1px solid #f6d589;
+     border-bottom-right-radius:20%;
+	margin-bottom:8rem; }
+
+h1, h4 {
+	font-family: 'Courgette', cursive; }
+	
+p {
+	font-family: 'Rubik', sans-serif;
+}
+
+.bg-primary {
+	background-color: #f6d589 !important; }
+	
+.btn-primary {
+	background-color: #fa8300 !important;
+	border:0; }
+
+.btn:focus, .btn:active:focus, .btn.active:focus{ outline:none; box-shadow: inset 0px 0px 40px 40px #fa8300; }
+	
+.navbar-brand {
+	font-family: 'Permanent Marker', cursive; }
+
+.copyright {
+	font-family: 'Permanent Marker', cursive; }
+	
+.mines-bottom {
+	margin-bottom: -2rem; }
+	
+.card-title {
+	font-weight: bold; }
+	
+.text-primary {
+	color: #ed8812 !important; }
+	
+@media (max-width: 768px) {
+	.wrap-header {
+		border-bottom-right-radius:0%; }
+}
